@@ -240,32 +240,35 @@ FOR PULSE AT 500
 
 ![image](https://github.com/user-attachments/assets/cb0f1ea5-9b43-48cb-ad12-708c6bafbdcd)
 
-
+~~~
 TON = 0.6ms
 TOFF= 0.6ms
 TOTAL TIME = 1.2ms
 FREQUENCY = 1/(1.2ms) = 833.33 Hz
+~~~
 
 FOR PULSE AT 700
 
 ![image](https://github.com/user-attachments/assets/308038b1-3fec-43d4-b5cc-aa93c79531a4)
-
+~~~
 TON = 0.84ms
 TOFF= 0.36
 TOTAL TIME = 1.2ms
 FREQUENCY = 1/(1.2ms) = 833.33Hz
-
+~~~
 
 FOR PULSE AT 900
 
 ![image](https://github.com/user-attachments/assets/177e1946-f099-4fd8-add7-606a13c09671)
 
-
+~~~
 
 TON = 1.08ms
 TOFF= 0.12ms
 TOTAL TIME = 1.2ms
 FREQUENCY = 1/(1.2ms) = 833.33Hz
+
+~~~
 
 
 
