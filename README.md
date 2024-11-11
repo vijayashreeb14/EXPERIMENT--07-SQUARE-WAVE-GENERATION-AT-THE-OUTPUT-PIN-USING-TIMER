@@ -258,6 +258,9 @@ FREQUENCY = 1/(1.2ms) = 833.33Hz
 
 FOR PULSE AT 900
 
+![image](https://github.com/user-attachments/assets/177e1946-f099-4fd8-add7-606a13c09671)
+
+
 
 TON = 1.08ms
 TOFF= 0.12ms
