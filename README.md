@@ -241,20 +241,40 @@ FOR PULSE AT 500
 ![image](https://github.com/user-attachments/assets/cb0f1ea5-9b43-48cb-ad12-708c6bafbdcd)
 
 ~~~
-TON = 0.6ms
-TOFF= 0.6ms
-TOTAL TIME = 1.2ms
-FREQUENCY = 1/(1.2ms) = 833.33 Hz
+TON = 3 x 10 x 10^-6
+    = 0.00003
+TOFF=0.00003
+TOTAL TIME = TON + TOFF
+           = 0.00003+0.00003 
+           = 0.00006
+FREQUENCY = 1/(TOTAL TIME) 
+          =1/0.00006 
+          = 16666.7
+DUTY CYCLE = TON /(TON+TOFF)
+           = 0.00003/0.00006
+           = 0.5
+      IN % =0.5*100 
+           = 50 %
 ~~~
 
 FOR PULSE AT 700
 
 ![image](https://github.com/user-attachments/assets/308038b1-3fec-43d4-b5cc-aa93c79531a4)
 ~~~
-TON = 0.84ms
-TOFF= 0.36
-TOTAL TIME = 1.2ms
-FREQUENCY = 1/(1.2ms) = 833.33Hz
+TON = 4 x 10 x 10^-6
+    = 0.00004
+TOFF= 2 x 10 x 10^-6
+    = 0.00002
+TOTAL TIME = TON + TOFF
+           = 0.00004+0.00002
+           = 0.00006
+FREQUENCY = 1/(TOTAL TIME)
+          = 16666.7
+DUTY CYCLE = TON /(TON+TOFF)
+           = 0.00004/0.00006
+           = 0.7
+      IN % =0.7*100 
+           = 70 %
 ~~~
 
 FOR PULSE AT 900
@@ -262,11 +282,21 @@ FOR PULSE AT 900
 ![image](https://github.com/user-attachments/assets/177e1946-f099-4fd8-add7-606a13c09671)
 
 ~~~
+TON = 1 x 50 x 10^-6
+    = 0.00005
+TOFF= 0.1 x 50 x 10^-6
+    = 0.000005
+TOTAL TIME = TON + TOFF
+           = 0.00005 + 0.000005
+           = 0.000055
+FREQUENCY = 1/(TOTAL TIME)
+          = 18181.82
+DUTY CYCLE = TON /(TON+TOFF)
+           = 0.00005/0.000055
+           = 0.9
+      IN % =0.9*100 
+           = 90 %
 
-TON = 1.08ms
-TOFF= 0.12ms
-TOTAL TIME = 1.2ms
-FREQUENCY = 1/(1.2ms) = 833.33Hz
 
 ~~~
 
